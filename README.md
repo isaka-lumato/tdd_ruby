@@ -19,12 +19,18 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 ```
 Ruby
+Rspec
 ```
 
 ### Setup
 ```
 git clone git@github.com:isaka-lumato/tdd_ruby.git
 cd tdd_ruby.git
+```
+
+## Run the tests
+```
+ rspec spec/solver_spec.rb 
 ```
 
 ## Author

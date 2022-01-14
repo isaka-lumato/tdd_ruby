@@ -5,12 +5,15 @@ describe Solver do
     it 'if is 2 it shoulkd return 2' do
       expect(subject.factorial(2)).to eq 2
     end
-    it 'should be 1 uf we pass 0' do
+    it 'should be 1 if we pass 0' do
       expect(subject.factorial(0)).to eq(1)
     end
     it 'should through an error if the number is less than 0' do
       expect(subject.factorial(-40)).to eq('only numbers greater than 0 have factorials')
     end
+    it 'if is 5 it should return 120' do
+      expect(subject.factorial(5)).to eq 120
+      end 
   end
 
   describe 'reversing string' do

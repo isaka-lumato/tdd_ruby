@@ -4,13 +4,6 @@
 
 > In this project we implement a class with some methods, but we do it by using test-driven development (TDD). The idea is to write tests first and then the code.
 
- :
-
-- Add new students or teachers.
-- Add new books.
-- Save records of who borrowed a book and when.
-
-
 Additional description about the project and its features.
 
 ## Built With

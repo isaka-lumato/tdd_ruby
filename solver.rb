@@ -1,12 +1,10 @@
 class Solver
-  def factorial(n)
+  def factorial(num)
     result = 1
-    for i in 1..n
-      result = result * i
+    (1..num).each do |i|
+      result *= i
     end
-    if (n < 0)
-      result = "only numbers greater than 0 have factorials"
-    end
+    result = 'only numbers greater than 0 have factorials' if num.negative?
     result
   end
 
@@ -14,14 +12,14 @@ class Solver
     string.reverse
   end
 
-  def fizzbuzz(n)
-    result = n
-    if (n % 3 == 0 && n % 5 == 0)
-      result = "fizzbuzz"
-    elsif (n % 3 == 0)
-      result = "fizz"
-    elsif (n % 5 == 0)
-      result = "buzz"
+  def fizzbuzz(num)
+    result = num
+    if (num % 3).zero? && (num % 5).zero?
+      result = 'fizzbuzz'
+    elsif (num % 3).zero?
+      result = 'fizz'
+    elsif (num % 5).zero?
+      result = 'buzz'
     end
     result.to_s
   end

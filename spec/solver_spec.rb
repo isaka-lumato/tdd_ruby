@@ -13,7 +13,7 @@ describe Solver do
     end
     it 'if is 5 it should return 120' do
       expect(subject.factorial(5)).to eq 120
-      end 
+    end
   end
 
   describe 'reversing string' do

@@ -2,7 +2,7 @@ require_relative '../solver'
 
 describe Solver do
   describe 'factorial' do
-    it 'if is 2 it shoulkd return 2' do
+    it 'if is 2 it should return 2' do
       expect(subject.factorial(2)).to eq 2
     end
     it 'should be 1 if we pass 0' do
